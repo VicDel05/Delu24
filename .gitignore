@@ -1,0 +1,44 @@
+# Ignorar archivos de configuración y credenciales
+.env
+
+# Ignorar directorios de dependencias (si usas Composer o Node.js)
+vendor/
+node_modules/
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de caché o temporales
+/cache/
+*.cache
+*.log
+*.tmp
+
+# Ignorar archivos de subidas temporales
+/public/uploads/*
+
+# Ignorar archivos específicos del entorno de desarrollo
+*.bak
+*.swp
+
+# Ignorar archivos de depuración o perfiles
+*.debug
+*.profile
+
+# Ignorar archivos relacionados con IDEs y editores de texto
+/.idea/
+/.vscode/
+/nbproject/
+
+# Ignorar configuraciones de despliegue o servidores locales
+/.ftpconfig
+/.env.local
+/.htaccess
+
+# Ignorar archivos de compilación si se usa SASS o LESS
+*.sass-cache
+*.scss-cache
+
+# Ignorar otros archivos innecesarios
+!.gitignore
