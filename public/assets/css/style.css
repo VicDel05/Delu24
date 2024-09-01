@@ -1,0 +1,11 @@
+:root{
+    --main-bg: #0878af;
+}
+
+#logo-login{
+    width: 300px;
+}
+
+.bgcolor{
+    background-color: var(--main-bg);
+}
