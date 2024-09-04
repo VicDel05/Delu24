@@ -2,6 +2,7 @@
 require "includes/header.php";
 require "includes/navbar.php";
 ?>
+<a href="./index.php?controller=PagesController&action=logout">Cerrar sesion</a>
 
 <div class="container text-center mt-3">
     <div class="row">

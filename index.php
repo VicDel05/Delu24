@@ -1,5 +1,7 @@
 <?php
 
-//require "views/login.php";
-require "views/dashboard.php";
+require_once "core.php";
+
+$core = new Core();
+$core->handleRequest();
 ?>
