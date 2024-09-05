@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 class PagesController{
     // Método para mostrar la página de inicio de sesión

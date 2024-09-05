@@ -1,7 +1,7 @@
 <?php
 require "includes/header.php";
 ?>
-
+<div class="container">
     <div class="row">
         <div class="col col-12 col-md-6 text-center">
             <img id="logo-login" src="./public/assets/img/Delu24-logo.png" alt="Logo" class="img-fluid rounded">
@@ -15,9 +15,9 @@ require "includes/header.php";
                 <button type="submit"class="btn btn-primary">Ingresar</button>
             </form>
         </div>
-    </div>
-
+    </div>   
     <a href="./index.php?controller=PagesController&action=register">Ir a otra pestaña</a>
+</div>
 
 <?php
 require "includes/footer.php";
