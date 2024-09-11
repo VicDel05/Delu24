@@ -10,7 +10,7 @@ require "includes/navbar.php";
             Usuarios
         </div>
         <div class="col">
-            Inventario
+            Ventas
         </div>
         <div class="col">
             Categorias
@@ -21,7 +21,7 @@ require "includes/navbar.php";
             Productos
         </div>
         <div class="col">
-            Ventas
+            
         </div>
         <div class="col">
             Reportes
